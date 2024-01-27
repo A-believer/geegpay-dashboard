@@ -1,0 +1,7 @@
+export {default as Dashboard} from "./Dashboard"
+export {default as Delivery} from "./Delivery"
+export {default as Ideas} from "./Ideas"
+export {default as Percentages} from "./Percentages"
+export {default as Trends} from "./Trends"
+export {default as UsersProfile} from "./UsersProfile"
+export {default as Error} from "./Error"
