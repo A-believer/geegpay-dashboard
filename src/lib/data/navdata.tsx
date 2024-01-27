@@ -106,8 +106,8 @@ export  const realtimeData = [
       fill: true,
       label: '',
       data: [75, 60, 25, 45, 65, 70, 40, 50, 55, 30, 60, 70, 40, 65, 55, 35, 25, 45, 75, 50, 30, 70, 40, 60, 25, 35, 75, 45, 50, 65],
-      borderColor: 'rgba(237, 84, 78, 1)',
-      backgroundColor: 'rgba(237, 84, 78, 0.1)',
+     borderColor: 'rgba(102, 200, 123, 1)',
+      backgroundColor: 'rgba(102, 200, 123, 0.1)',
       borderWidth: 1
     },
     
