@@ -40,7 +40,7 @@ export default function SalesTrend() {
         backgroundColor: "rgba(52, 202, 165, 0.10)",
         borderColor: "rgba(52, 202, 165, 0.10)",
             borderWidth: 1,
-            barThickness: window.innerWidth >= 1024 ? 25 : window.innerWidth === 768 ? 20 : 10,
+            barThickness: window.innerWidth >= 1024 ? 26 : window.innerWidth === 768 ? 20 : 10,
         hoverBackgroundColor: "rgba(52, 202, 165, 0.5)",
         data: period === "daily" ? dailydata : period === "monthly" ? monthlydata : yearlydata
       },
