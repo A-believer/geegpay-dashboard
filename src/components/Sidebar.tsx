@@ -24,7 +24,7 @@ export default function Sidebar() {
           ))}
         </div>
 
-        <div className="flex flex-col items-center gap-y-4 p-2 mx-5 rounded-[100px] bg-background mb-5">
+        <div className="flex flex-col items-center gap-y-4 p-2 mx-5 rounded-[100px] bg-background mb-10">
           <Button onClick={() => setTheme("light")} variant={"ghost"} className={`w-fit mx-auto p-2 rounded-full ${theme === "light" && "bg-[#34CAA5]"}`}>
             <Sun1 size="24" color={theme === "light" ? "#FFFFFF" : "#B2ABAB"} variant="Bold"/>
           </Button>
