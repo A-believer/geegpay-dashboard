@@ -11,7 +11,7 @@ export default function NavbarMobile() {
 
   return (
     <nav className="lg:hidden flex bg-sidebar-background font-inter border-b border-[#E5EAEF]/50 w-full relative">
-      <div className="flex items-center justify-between w-[95%] mx-auto py-3">
+      <div className="flex items-center justify-between lg:w-[98%] w-[95%] mx-auto py-3">
         <Button onClick={() => setSidebarOpen(prev => !prev)} variant={"ghost"} className="flex items-center justify-start gap-x-1 w-fit h-fit p-0 hover:bg-none">
           <HambergerMenu size="18" />
           <img src={Logo} alt="logo" className="w-9 h-9 object-contain"/>

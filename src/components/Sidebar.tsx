@@ -16,7 +16,7 @@ export default function Sidebar() {
       <div className="flex flex-col items-center overflow-y-scroll no-scrollbar w-full">
         <div className="flex flex-col items-center gap-y-4 w-full py-5">
           {navItems.map((item) => (
-            <NavLink to={item.to} className={`flex items-center justify-center relative w-full p-2 ${location.pathname === item.to && theme === "dark" && "bg-[#34CAA5]"}`}>
+            <NavLink key={item.id} to={item.to} className={`flex items-center justify-center relative w-full p-2 ${location.pathname === item.to && theme === "dark" && "bg-[#34CAA5]"}`}>
               {location.pathname === item.to ? item.activeIcon : item.inActiveIcon}
               {location.pathname === item.to &&
                 <img src={border} alt="border" className="absolute top-2.5 right-0" />}

@@ -1,3 +1,5 @@
 export {default as Logo} from "./logo.svg"
 export {default as border} from "./active-border.svg"
 export {default as user} from "./user.png"
+export {default as trendingUp} from "./trendingUp.svg"
+export {default as trendingDown} from "./trendingDown.svg"
