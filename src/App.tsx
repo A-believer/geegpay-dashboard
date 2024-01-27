@@ -6,7 +6,7 @@ function App() {
   
   return (
 
-    <main className="flex w-full max-w-[1440px] mx-auto">
+    <main className="flex w-full max-w-[1440px] mx-auto relative">
       <Sidebar />
       <section className="md:max-w-[1360px] max-w-full w-full lg:ml-20 ml-0 bg-sidebar-background overflow-x-hidden
       ">
