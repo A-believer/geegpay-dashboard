@@ -37,16 +37,15 @@ export default function Comparison() {
   plugins: {
     legend: {
       display: false
-    },
-    
+    }, 
   },
   };
   
 
   return (
-    <div className="flex items-center justify-center flex-wrap gap-5">
+    <div className="grid xl:grid-cols-2 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-5">
       {realtimeData.map((item) => (
-        <div key={item.id} className="bg-background rounded-[14px] p-4 relative space-y-4 font-pjs border lg:w-fit md:w-[45%] w-[90%]">
+        <div key={item.id} className="bg-background rounded-[14px] p-4 relative space-y-3.5 font-pjs border md:w-[240px] w-full">
           <div className="flex items-center justify-between relative">
             <p className="p-2 border bg-transparent rounded-full">{item.icon}</p>
             <p className="w-[80px]">

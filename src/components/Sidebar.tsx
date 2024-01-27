@@ -11,7 +11,7 @@ export default function Sidebar() {
   const location = useLocation()
   
   return (
-    <nav className="w-20 lg:flex flex-col items-center gap-y-5 py-5 border-r overflow-hidden h-screen bg-sidebar-background hidden">
+    <nav className="w-20 lg:flex flex-col items-center gap-y-5 py-5 border-r overflow-hidden h-screen bg-sidebar-background hidden fixed left-0 top-0">
       <img src={Logo} alt="logo" className="w-10 h-10 object-contain"/>
       <div className="flex flex-col items-center overflow-y-scroll no-scrollbar w-full">
         <div className="flex flex-col items-center gap-y-4 w-full py-5">

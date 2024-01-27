@@ -1,3 +1,4 @@
+import { order1, order2, order3, order4, order5 } from "../../assets";
 import { Box, BoxTick, Category, Coin1, DiscountShape, I3DRotate, InfoCircle, Profile2User, ShoppingCart, TrendUp } from "iconsax-react";
 
 export const navItems = [
@@ -136,4 +137,75 @@ export  const realtimeData = [
   ],
 }
     },
-  ]
+]
+  
+export const orders = [
+  {
+    id: 1,
+    img: order1,
+    name: "Marcus Bergson",
+    date: "Nov 15, 2023",
+    amount: "80,000",
+    status: "Paid"
+  },
+
+  {
+    id: 2,
+    img: order2,
+    name: "Jaydon Vaccaro",
+    date: "Nov 15, 2023",
+    amount: "150,000",
+    status: "Refund"
+  },
+  {
+    id: 3,
+    img: order3,
+    name: "Corey Schleifer",
+    date: "Nov 14, 2023",
+    amount: "87,000",
+    status: "Paid"
+  },
+  {
+    id: 4,
+    img: order4,
+    name: "Cooper Press",
+    date: "Nov 14, 2023",
+    amount: "100,000",
+    status: "Refund"
+  },
+  {
+    id: 5,
+    img: order5,
+    name: "Phillip Lubin",
+    date: "Nov 15, 2023",
+    amount: "78,000",
+    status: "Paid"
+  }
+]
+
+export const topPlatformData = [
+  {
+    id: 1,
+    name: "Book Bazaar",
+    progress: 54,
+    amount: "2,500,000",
+    percent: 15,
+    color: "bg-[#6160DC]"
+  },
+  {
+    id: 2,
+    name: "Artisan Aisle",
+    progress: 45,
+    amount: "1,800,000",
+    percent: 10,
+    color: "bg-[#54C5EB]"
+  },
+  {
+    id: 3,
+    name: "Toy Troop",
+    progress: 27,
+    amount: "1,200,000",
+    percent: 8,
+    color: "bg-[#FFB74A]"
+  },
+]

@@ -74,12 +74,12 @@ export default function SalesTrend() {
     scales: {
       y: {
         beginAtZero: true,
-        border: { dash: [6, 6], display: true },
+        border: { dash: [6, 6], display: false },
         grid: {
           display: true // Display grid lines for the y-axis
         },
         ticks: {
-          padding: 5
+          padding: 7
         }
       },
       x: {
@@ -99,6 +99,7 @@ export default function SalesTrend() {
       }
         },
   };
+  
   return (
       <div className="bg-background p-5 rounded-[14px] flex flex-col gap-y-5 font-pjs border w-full">
           <div className="flex items-center justify-between">

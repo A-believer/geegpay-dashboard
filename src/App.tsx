@@ -8,7 +8,8 @@ function App() {
 
     <main className="flex w-full max-w-[1440px] mx-auto">
       <Sidebar />
-      <section className="md:max-w-[1360px] max-w-full w-full mx-auto bg-sidebar-background">
+      <section className="md:max-w-[1360px] max-w-full w-full lg:ml-20 ml-0 bg-sidebar-background overflow-x-hidden
+      ">
         <Navbar />
         <NavbarMobile/>
         <Routes>
