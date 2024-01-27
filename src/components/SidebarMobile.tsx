@@ -11,7 +11,7 @@ export default function SidebarMobile({closeSidebar}: {closeSidebar: () => void}
   const location = useLocation()
   
   return (
-      <nav className=" sm:w-[100px] w-[80px] absolute flex flex-col items-center gap-y-3 py-3 border overflow-hidden h-screen bg-sidebar-background z-50">
+      <nav className=" sm:w-[100px] w-[80px] fixed top-0 left-0 flex flex-col items-center gap-y-3 py-3 border overflow-hidden h-screen bg-sidebar-background z-50">
           <button className="relative w-full flex justify-center items-center" onClick={closeSidebar}>
               <ArrowLeft2 size="18" className="absolute left-1 font-black"/>
             <img src={Logo} alt="logo" className="w-9 h-9 object-contain"/>
