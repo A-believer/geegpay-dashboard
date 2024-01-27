@@ -23,7 +23,7 @@ export default function Navbar() {
 
   const currentDate = `${month} ${day}, ${year}`
   return (
-    <nav className="bg-sidebar-background font-inter border-b border-[#E5EAEF] lg:flex hidden">
+    <nav className="bg-sidebar-background font-inter border-b lg:flex hidden">
       <div className="flex items-center justify-between w-[95%] mx-auto py-[18px]">
         <h1 className="font-pjs text-xl font-semibold">{navItems.map((item) => (
         <span key={item.id}>{ location.pathname === item.to && item.name}</span>
